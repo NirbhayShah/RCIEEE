@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* .pagebackground {
+  background-image: linear-gradient(blue, cyan);
+}
+
+.questionnumber {
+  grid-area: 1 / 1 / 2 / 2;
+  text-align: center;
+}
+
+.questionpanel {
+  grid-area: 2 / 1 / 5 / 4;
+  text-align: center;
+}
+
+.response1 {
+  grid-area: 5 / 1 / 6 / 2;
+  align-content: space-around;
+  text-align: center;
+}
+
+.response2 {
+  grid-area: 5 / 3 / 6 / 4;
+  align-content: space-around;
+  text-align: center;
+}
+
+.time {
+  grid-area: 1 / 4 / 3 / 5;
+}
+
+.scoremarking {
+  grid-area: 3 / 4 / 4 / 5;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 2px;
+  grid-row-gap: 2px;
+}
+
+.score {
+  grid-area: 1 / 1 / 2 / 3;
+  text-align: center;
+}
+
+.scorecount {
+  grid-area: 1 / 3 / 2 / 5;
+  text-align: center;
+}
+
+.marking {
+  grid-area: 2 / 1 / 3 / 2;
+  text-align: center;
+}
+
+.correct {
+  grid-area: 2 / 2 / 3 / 3;
+  text-align: center;
+}
+
+.skip {
+  grid-area: 2 / 3 / 3 / 4;
+  text-align: center;
+}
+
+.wrong {
+  grid-area: 2 / 4 / 3 / 5;
+  text-align: center;
+}
+
+.lifeline {
+  grid-area: 4 / 4 / 7 / 5;
+  text-align: center;
+}
+
+.next {
+  grid-area: 6 / 1 / 7 / 4;
+  align-content: space-around;
+  text-align: center;
+} */
