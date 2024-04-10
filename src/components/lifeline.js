@@ -5,10 +5,12 @@ function Lifeline() {
   const handleLifelineClick = (endpoint) => {
     // Make Axios fetch request
     axios.get(`http://127.0.0.1:8000/api/lifeline?lifeline=${endpoint}`,{headers: {
-      Authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZWFtbmFtZSI6IlRlYW0xMjMiLCJleHAiOjE3MTI1Nzc5NjgsImlhdCI6MTcxMjU3NDM2OH0.Rv3DFEJUe4Y1MNOFWl8aMQoBISMd9F-ZzVMZstd1rrk'
+      Authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZWFtbmFtZSI6IlRlYW0xMjMiLCJleHAiOjE3MTI1ODUzMDQsImlhdCI6MTcxMjU4MTcwNH0.y55LW96mEWGOio80jc0Wir7HC-Fyvm0qnriGquWhYCg'
     }})
       .then(response => {
         location.reload();
+        // console.log(response.data);
+
       })
       .catch(error => {
         console.error("Error fetching lifeline data:", error);

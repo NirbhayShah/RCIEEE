@@ -20,7 +20,7 @@ const  Hero = () => {
   useEffect(() => {
     axios.get(`http://127.0.0.1:8000/api/get_question`, {
       headers: {
-        Authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZWFtbmFtZSI6IlRlYW0xMjMiLCJleHAiOjE3MTI1ODE2MzEsImlhdCI6MTcxMjU3ODAzMX0.YGVuaV7TFy2KwpGB-7hLPTSSb7EM64M8GK8HNdoPL_Q'
+        Authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZWFtbmFtZSI6IlRlYW0xMjMiLCJleHAiOjE3MTI1ODUzMDQsImlhdCI6MTcxMjU4MTcwNH0.y55LW96mEWGOio80jc0Wir7HC-Fyvm0qnriGquWhYCg'
       }
     })
     .then(res => {
@@ -41,7 +41,7 @@ const  Hero = () => {
       { answer: val },
       { 
         headers: { 
-          Authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZWFtbmFtZSI6IlRlYW0xMjMiLCJleHAiOjE3MTI1ODE2MzEsImlhdCI6MTcxMjU3ODAzMX0.YGVuaV7TFy2KwpGB-7hLPTSSb7EM64M8GK8HNdoPL_Q' 
+          Authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZWFtbmFtZSI6IlRlYW0xMjMiLCJleHAiOjE3MTI1ODUzMDQsImlhdCI6MTcxMjU4MTcwNH0.y55LW96mEWGOio80jc0Wir7HC-Fyvm0qnriGquWhYCg' 
         } 
       }
     )
